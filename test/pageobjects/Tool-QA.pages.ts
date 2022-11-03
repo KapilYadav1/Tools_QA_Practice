@@ -142,10 +142,10 @@ class Tool_QA extends Page {
         let actualCurrentAddress: string[] = currentAddress.split(":");
         let actualPermanentAddress: string[] = permanentAddress.split(":");
 
-        console.log("++++++++++----------->" + actualName[1]);
-        console.log("-------------->" + actualEmail[1]);
-        console.log("------------>" + actualCurrentAddress[1]);
-        console.log("------------->" + actualPermanentAddress[1]);
+        console.log("Actual Name" + actualName[1]);
+        console.log("Actual Email" + actualEmail[1]);
+        console.log("Actual Current Address" + actualCurrentAddress[1]);
+        console.log("Actual Permanent Address" + actualPermanentAddress[1]);
 
         expect(actualName[1]).toEqual(fullName1);
         expect(actualEmail[1]).toEqual(email1);
